@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">HotelWallet</string>
+
+    <string name="title_onboarding_1">Work at Home</string>
+    <string name="description_onboarding_1">Work at home to more comfort. Make a great projects with this app</string>
+    <string name="title_onboarding_2">Analyse Your Project</string>
+    <string name="description_onboarding_2">Smart details for analysis. Do more with this app</string>
+    <string name="title_onboarding_3">Achieve Your Goals</string>
+    <string name="description_onboarding_3">Achieve your goals more easily. This app will help with that</string>
+
+    <!-- *********** Text *********** -->
+    <string name="txt_dynamic_text">%s</string>
+
+    <!-- *********** Menu *********** -->
+    <string name="txt_home">Home</string>
+    <string name="txt_search">Search</string>
+    <string name="txt_profile">Profile</string>
+    <string name="txt_settings">Settings</string>
+
+    <!-- *********** Title *********** -->
+
+    <!-- *********** Button *********** -->
+    <string name="txt_btn_skip">Skip</string>
+    <string name="txt_btn_next">Next</string>
+    <string name="txt_btn_go">Go</string>
+    <string name="txt_btn_back">Back</string>
+    <string name="txt_btn_ok">OK</string>
+    <!-- *********** Message *********** -->
+
+</resources>

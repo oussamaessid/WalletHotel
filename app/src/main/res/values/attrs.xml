@@ -1,0 +1,9 @@
+<resources>
+    <attr name="activatedColor" format="reference" />
+    <attr name="disabledColor" format="reference" />
+    <attr name="imageButtonOutlineStrokeColor" format="reference" />
+    <attr name="imageButtonOutlineBackgroundColor" format="reference" />
+    <attr name="boxInputBackground" format="reference" />
+
+    <attr name="boxInputBackgroundInvalid" format="reference" />
+</resources>

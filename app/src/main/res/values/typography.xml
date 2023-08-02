@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextViewStyle">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="TextViewStyle.Bold">
+        <item name="android:fontFamily">@font/roboto_bold</item>
+    </style>
+
+    <style name="TextViewStyle.Medium">
+        <item name="android:fontFamily">@font/roboto_medium</item>
+    </style>
+
+    <style name="TextViewStyle.Black">
+        <item name="android:fontFamily">@font/roboto_black</item>
+    </style>
+
+    <style name="TextViewStyle.10">
+        <item name="android:textSize">@dimen/textSizeTinyMoins</item>
+    </style>
+
+    <style name="TextViewStyle.17">
+        <item name="android:textSize">@dimen/textSizeRegularExtra</item>
+    </style>
+
+    <style name="TextViewStyle.12">
+        <item name="android:textSize">@dimen/textSizeSmall</item>
+    </style>
+
+    <style name="TextViewStyle.13">
+        <item name="android:textSize">@dimen/textSizeSmallPlus</item>
+    </style>
+
+    <style name="TextViewStyle.14">
+        <item name="android:textSize">@dimen/textSizeRegularMoins</item>
+    </style>
+
+    <style name="TextViewStyle.15">
+        <item name="android:textSize">@dimen/textSizeRegular</item>
+    </style>
+
+    <style name="TextViewStyle.16">
+        <item name="android:textSize">@dimen/textSizeRegularPlus</item>
+    </style>
+
+    <style name="TextViewStyle.18">
+        <item name="android:textSize">@dimen/textSizeRegularExtraPlus</item>
+    </style>
+
+    <style name="TextViewStyle.24">
+        <item name="android:textSize">@dimen/textSizeHuge</item>
+    </style>
+
+    <style name="TextViewStyle.32">
+        <item name="android:textSize">@dimen/textSizeHugeExtra</item>
+    </style>
+
+    <style name="TextViewStyle.48">
+        <item name="android:textSize">@dimen/textSizeGross</item>
+    </style>
+
+    <style name="TextViewStyle.64">
+        <item name="android:textSize">@dimen/textSizeGrossExtra</item>
+    </style>
+
+    <style name="TextViewStyle.Medium.14">
+        <item name="android:textSize">@dimen/textSizeRegularMoins</item>
+    </style>
+
+    <style name="TextViewStyle.Medium.16">
+        <item name="android:textSize">@dimen/textSizeRegularPlus</item>
+    </style>
+
+    <style name="TextViewStyle.Medium.17">
+        <item name="android:textSize">@dimen/textSizeRegularExtra</item>
+    </style>
+
+    <style name="TextViewStyle.Medium.18">
+        <item name="android:textSize">@dimen/textSizeRegularExtraPlus</item>
+    </style>
+
+    <style name="TextViewStyle.Medium.20">
+        <item name="android:textSize">@dimen/textSizeLarge</item>
+    </style>
+
+    <style name="TextViewStyle.Medium.36">
+        <item name="android:textSize">@dimen/textSizeHugeExtraPlus</item>
+    </style>
+
+    <style name="TextViewStyle.Bold.10">
+        <item name="android:textSize">@dimen/textSizeTinyMoins</item>
+    </style>
+
+    <style name="TextViewStyle.Bold.11">
+        <item name="android:textSize">@dimen/textSizeTiny</item>
+    </style>
+
+    <style name="TextViewStyle.Bold.12">
+        <item name="android:textSize">@dimen/textSizeSmall</item>
+    </style>
+
+    <style name="TextViewStyle.Bold.13">
+        <item name="android:textSize">@dimen/textSizeSmallPlus</item>
+    </style>
+
+    <style name="TextViewStyle.Bold.14">
+        <item name="android:textSize">@dimen/textSizeRegularMoins</item>
+    </style>
+
+    <style name="TextViewStyle.Bold.15">
+        <item name="android:textSize">@dimen/textSizeRegular</item>
+    </style>
+
+    <style name="TextViewStyle.Bold.16">
+        <item name="android:textSize">@dimen/textSizeRegularPlus</item>
+    </style>
+
+    <style name="TextViewStyle.Bold.17">
+        <item name="android:textSize">@dimen/textSizeRegularExtra</item>
+    </style>
+
+    <style name="TextViewStyle.Bold.20">
+        <item name="android:textSize">@dimen/textSizeLarge</item>
+    </style>
+
+    <style name="TextViewStyle.Bold.24">
+        <item name="android:textSize">@dimen/textSizeHuge</item>
+    </style>
+
+    <style name="TextViewStyle.Bold.32">
+        <item name="android:textSize">@dimen/textSizeHugeExtra</item>
+    </style>
+
+    <style name="TextViewStyle.Bold.48">
+        <item name="android:textSize">@dimen/textSizeGross</item>
+    </style>
+
+    <style name="TextViewStyle.Bold.64">
+        <item name="android:textSize">@dimen/textSizeGrossExtra</item>
+    </style>
+
+    <style name="TextViewStyle.Black.15">
+        <item name="android:textSize">@dimen/textSizeRegular</item>
+    </style>
+
+    <style name="TextViewStyle.Black.16">
+        <item name="android:textSize">@dimen/textSizeRegularPlus</item>
+    </style>
+
+    <style name="TextViewStyle.Black.18">
+        <item name="android:textSize">@dimen/textSizeRegularExtraPlus</item>
+    </style>
+
+    <style name="TextViewStyle.Black.20">
+        <item name="android:textSize">@dimen/textSizeLarge</item>
+    </style>
+
+    <style name="TextViewStyle.Black.24">
+        <item name="android:textSize">@dimen/textSizeHuge</item>
+    </style>
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "15007164520",
+    "project_id": "hotelwallet-e1ca5",
+    "storage_bucket": "hotelwallet-e1ca5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:15007164520:android:38aa2424c6f73607c873dd",
+        "android_client_info": {
+          "package_name": "com.example.hotelwallet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "15007164520-t5kh29h2fcmipja0o2gihlegqh3pvcpf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVV34tjs9QWl2_d9wJ4bVtRqmVBGFBOVk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "15007164520-t5kh29h2fcmipja0o2gihlegqh3pvcpf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

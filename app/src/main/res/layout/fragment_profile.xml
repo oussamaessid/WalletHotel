@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.profile.ProfileFragment">
+
+    <include
+        android:id="@+id/toolBar"
+        layout="@layout/main_toolbar" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolBar">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/imgUser"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="24dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/circle_orange"
+                android:backgroundTint="@color/colorCerulean"
+                android:padding="6dp"
+                android:src="@drawable/img_camera_small"
+                app:layout_constraintBottom_toBottomOf="@+id/imgUser"
+                app:layout_constraintEnd_toEndOf="@+id/imgUser"
+                app:layout_constraintTop_toBottomOf="@+id/imgUser" />
+
+            <TextView
+                android:id="@+id/txtUserInformation"
+                style="@style/TextViewStyle.Bold.20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:text="@string/txt_user_info"
+                app:layout_constraintTop_toBottomOf="@+id/imgUser" />
+
+            <TextView
+                android:id="@+id/txtLabelLastName"
+                style="@style/TextViewStyle.16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="@string/txt_last_name"
+                android:textColor="@color/boulder"
+                app:layout_constraintStart_toStartOf="@+id/linearLastName"
+                app:layout_constraintTop_toBottomOf="@+id/txtUserInformation" />
+
+            <LinearLayout
+                android:id="@+id/linearLastName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="12dp"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toStartOf="@+id/linearFirstName"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtLabelLastName">
+
+                <TextView
+                    android:id="@+id/txtLastName"
+                    style="@style/TextViewStyle.Medium.18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="@string/txt_last_name" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="4dp"
+                    android:background="@color/concrete" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtLabelFirstName"
+                style="@style/TextViewStyle.16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="@string/txt_first_name"
+                android:textColor="@color/boulder"
+                app:layout_constraintStart_toStartOf="@+id/linearFirstName"
+                app:layout_constraintTop_toBottomOf="@+id/txtUserInformation" />
+
+            <LinearLayout
+                android:id="@+id/linearFirstName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="8dp"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/linearLastName"
+                app:layout_constraintTop_toBottomOf="@+id/txtLabelLastName">
+
+                <TextView
+                    android:id="@+id/txtFirstName"
+                    style="@style/TextViewStyle.Medium.18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="@string/txt_first_name" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="4dp"
+                    android:background="@color/concrete" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtLabelEmail"
+                style="@style/TextViewStyle.16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="@string/txt_email"
+                android:textColor="@color/boulder"
+                app:layout_constraintStart_toStartOf="@+id/linearEmail"
+                app:layout_constraintTop_toBottomOf="@+id/linearFirstName" />
+
+            <LinearLayout
+                android:id="@+id/linearEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtLabelEmail">
+
+                <TextView
+                    android:id="@+id/txtEmail"
+                    style="@style/TextViewStyle.Medium.18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="@string/txt_email" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="4dp"
+                    android:background="@color/concrete" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtMemberSince"
+                style="@style/TextViewStyle.16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearEmail"
+                tools:text="@string/txt_member_since" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">HotelWallet</string>
+
+    <string name="title_onboarding_1">العمل في المنزل</string>
+    <string name="description_onboarding_1">العمل في المنزل لمزيد من الراحة. قم بعمل مشاريع رائعة مع هذا التطبيق</string>
+    <string name="title_onboarding_2">حلل مشروعك</string>
+    <string name="description_onboarding_2">تفاصيل ذكية للتحليل. افعل المزيد مع هذا التطبيق</string>
+    <string name="title_onboarding_3">حقق اهدافك</string>
+    <string name="description_onboarding_3">حقق أهدافك بسهولة أكبر. هذا التطبيق سوف يساعد في ذلك</string>
+
+    <!-- *********** Text *********** -->
+    <string name="txt_dynamic_text">%s</string>
+    <string name="txt_menu">قائمة طعام</string>
+    <string name="txt_prix">سعر</string>
+    <string name="txt_hi">أهلاً %s</string>
+    <string name="txt_your_balance">رصيدك %s</string>
+    <string name="txt_name">oussama</string>
+    <string name="txt_amount">1000 D</string>
+    <string name="txt_pay">دفع</string>
+    <string name="txt_langauge">لغة</string>
+    <string name="txt_logout">تسجيل خروج</string>
+    <string name="txt_historical">تاريخي</string>
+    <string name="txt_select_your_languages">حدد اللغات الخاصة بك</string>
+    <string name="txt_hello">مرحبًا</string>
+    <string name="txt_hotel_wallet">Hotel Wallet</string>
+    <string name="txt_ingradients">مكونات</string>
+    <string name="txt_register">تجيل</string>
+    <string name="txt_your_first_name">اسمك الأول</string>
+    <string name="txt_your_last_name">اسمك الاخير</string>
+    <string name="txt_email">بريد إلكتروني</string>
+    <string name="txt_phone">هاتف</string>
+    <string name="txt_user_info">معلومات المستخدم</string>
+    <string name="txt_first_name">الاسم الأول</string>
+    <string name="txt_last_name">اسم العائلة</string>
+    <string name="txt_member_since">عضو منذ : ٪s</string>
+    <string name="txt_privacy_policy">سياسة الخصوصية</string>
+    <string name="txt_terms_of_use">شروط الاستخدام</string>
+    <string name="txt_not_have_account"><u>ليس لديك حساب؟</u></string>
+    <string name="txt_confirm_password">تأكيد كلمة المرور</string>
+    <string name="txt_password"> كلمة المرور</string>
+    <string name="txt_login">تسجيل الدخول</string>
+    <string name="txt_forget_password">نسيت كلمة المرور؟</string>
+    <string name="txt_enter_your_email_or_mobile">أدخل بريدك الإلكتروني أو هاتفك المحمول</string>
+    <string name="txt_scan">أصبح تسجيل الفندق سهلاً بنقرة واحدة فقط</string>
+    <string name="txt_scan_to_login">اذهب لتسجيل الدخول</string>
+    <string name="txt_english">إنجليزي</string>
+    <string name="txt_arabic">عربي</string>
+    <string name="txt_no_items">لا توجد عناصر</string>
+    <string name="txt_create_your_account">أنشئ حسابك</string>
+    <string name="txt_welcome">مرحباً!</string>
+    <string name="txt_have_account_first"><u>هل لديك حساب؟</u></string>
+    <string name="txt_quantity">كمية :</string>
+    <string name="txt_quantity_value">%s : الكمية</string>
+    <string name="txt_total">المجموع :</string>
+    <string name="txt_select_offer">اختر العرض:</string>
+    <string name="txt_one_day">يوم واحد</string>
+    <string name="txt_two_day">يومين</string>
+    <string name="txt_three_day">ثلاثة ايام</string>
+    <string name="txt_four_day">أربعة أيام </string>
+    <string name="txt_five_day">خمسة أيام</string>
+    <string name="txt_one_person">شخص واحد</string>
+    <string name="txt_two_person">شخصان</string>
+    <string name="txt_three_person">ثلاثة اشخاص</string>
+    <string name="txt_four_person">أربعة أشخاص</string>
+    <string name="txt_five_person">خمسة أشخاص</string>
+    <string name="txt_session">٪ s / جلسة</string>
+    <string name="txt_time">وقت :</string>
+    <string name="txt_gallery">وقت :</string>
+    <string name="txt_order_value">طلبات</string>
+    <string name="txt_date_value">%s : تاريخ</string>
+    <string name="txt_times"><b>من الإثنين إلى الجمعة:</b> 8 صباحًا - 10 مساءً \n<b>السبت:</b> 8:30 صباحًا - 6 مساءً \ n<b>الأحد:</b>9 صباحًا - 1 ظهرًا</string>
+    <string name="txt_just_now">الآن</string>
+    <string name="txt_minute_ago">قبل دقيقة</string>
+    <string name="txt_minutes_ago">قبل دقيقة ٪ s</string>
+    <string name="txt_an_hour_ago">قبل ساعة</string>
+    <string name="txt_hours_ago">قبل ساعة ٪s</string>
+    <string name="txt_yesterday">أمس</string>
+    <string name="txt_days_ago">قبل يوم ٪s</string>
+    <string name="txt_every_friday">كل جمعة</string>
+    <string name="txt_you">أنت</string>
+    <string name="txt_hotel">الفندق</string>
+    <string name="txt_chat_writing">كتابة الدردشة ......</string>
+    <string name="txt_chat">دردشة مباشرة</string>
+    <string name="txt_price_value">DT ٪s</string>
+    <string name="txt_price_menu">السعر : s٪ DT</string>
+    <!-- *********** Menu *********** -->
+    <string name="txt_home">بيت</string>
+    <string name="txt_category">فئة</string>
+    <string name="txt_profile">حساب تعريفي</string>
+    <string name="txt_settings">إعدادات</string>
+    <string name="txt_favorite">مفضل</string>
+
+    <!-- *********** Title *********** -->
+    <string name="txt_title_service">خدمات</string>
+    <string name="txt_title_description">وصف</string>
+    <string name="txt_title_cart">عربة التسوق</string>
+    <string name="txt_title_favorite">مفضل</string>
+    <string name="txt_title_chat">محادثة</string>
+    <string name="txt_title_settings">إعدادات</string>
+    <string name="txt_title_profile">حساب تعريفي</string>
+    <string name="txt_title_edit_profile">تعديل الملف الشخصي</string>
+    <string name="txt_title_language">لغة</string>
+    <string name="txt_title_price">سعر</string>
+    <string name="txt_title_historic">تاريخي</string>
+    <string name="txt_restaurant">مطعم</string>
+    <string name="txt_gym">نادي رياضي</string>
+    <string name="txt_swimming_pool">حمام السباحة</string>
+    <string name="txt_event">حدث</string>
+
+    <!-- *********** Button *********** -->
+    <string name="txt_btn_skip">يتخطى</string>
+    <string name="txt_btn_next">التالي</string>
+    <string name="txt_btn_go">يذهب</string>
+    <string name="txt_btn_back">رجوع</string>
+    <string name="txt_btn_ok">نعم</string>
+    <string name="txt_btn_arabic">عربي</string>
+    <string name="txt_btn_english">إنجليزي</string>
+    <string name="txt_btn_login">تسجيل الدخول</string>
+    <string name="txt_btn_sing_up">تجيل</string>
+    <string name="txt_btn_scan">مسح</string>
+    <string name="txt_btn_yes">نعم</string>
+    <string name="txt_btn_no">لا</string>
+    <string name="txt_btn_save">يحفظ</string>
+    <string name="txt_btn_logout">تسجيل خروج</string>
+    <string name="txt_btn_less">-</string>
+    <string name="txt_btn_more">+</string>
+    <string name="txt_btn_add_to_cart">أضف إلى السلة</string>
+    <string name="txt_btn_confirm">يتأكد</string>
+    <string name="txt_btn_booking">الحجز</string>
+    <string name="txt_btn_registration">أنشئ حسابك</string>
+
+    <!-- *********** Message *********** -->
+    <string name="txt_error_email">Invalid email address</string>
+    <string name="txt_error_password">Invalid password</string>
+    <string name="txt_error_confirm_password">Invalid confirm password</string>
+    <string name="txt_error_last_name">Invalid lastName</string>
+    <string name="txt_error_first_name">Invalid firstName</string>
+    <string name="txt_msg_title_logout">Logout</string>
+    <string name="txt_msg_logout">Are you sure you want to disconnect?</string>
+</resources>

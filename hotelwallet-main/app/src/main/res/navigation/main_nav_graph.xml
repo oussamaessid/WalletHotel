@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/welcomeFragment">
+
+    <fragment
+        android:id="@+id/viewPagerFragment"
+        android:name="com.example.hotelwallet.presentation.welcome.ViewPagerFragment"
+        android:label="fragment_view_pager"
+        tools:layout="@layout/fragment_view_pager" >
+        <action
+            android:id="@+id/action_viewPagerFragment_to_scannerFragment"
+            app:destination="@id/scannerFragment"
+            app:popUpTo="@id/viewPagerFragment"
+            app:popUpToInclusive="true"/>
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.hotelwallet.presentation.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="com.example.hotelwallet.presentation.welcome.WelcomeFragment"
+        android:label="fragment_welcome"
+        tools:layout="@layout/fragment_welcome" >
+        <action
+            android:id="@+id/action_welcomeFragment_to_viewPagerFragment"
+            app:destination="@id/viewPagerFragment"
+            app:popUpTo="@id/welcomeFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_welcomeFragment_to_scannerFragment"
+            app:destination="@id/scannerFragment"
+            app:popUpTo="@id/welcomeFragment"
+            app:popUpToInclusive="true"/>
+    </fragment>
+    <fragment
+        android:id="@+id/scannerFragment"
+        android:name="com.example.hotelwallet.presentation.scanner.ScannerFragment"
+        android:label="fragment_scanner"
+        tools:layout="@layout/fragment_scanner" >
+        <argument
+            android:name="RESULT"
+            android:defaultValue="RESULT"
+            app:argType="string"
+            app:nullable="false" />
+        <action
+            android:id="@+id/action_scannerFragment_to_resultQrCodeFragment"
+            app:destination="@id/resultQrCodeFragment"
+            app:popUpTo="@id/scannerFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_scannerFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/scannerFragment"
+            app:popUpToInclusive="true"/>
+    </fragment>
+    <fragment
+        android:id="@+id/resultQrCodeFragment"
+        android:name="com.example.hotelwallet.presentation.scanner.ResultQrCodeFragment"
+        android:label="fragment_result_qr_code"
+        tools:layout="@layout/fragment_result_qr_code" >
+        <action
+            android:id="@+id/action_resultQrCodeFragment_to_scannerFragment2"
+            app:destination="@id/scannerFragment" />
+    </fragment>
+</navigation>

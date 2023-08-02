@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.gym.GymDetailsFragment">
+
+    <include
+        android:id="@+id/toolBar"
+        layout="@layout/main_toolbar" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolBar">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp">
+
+            <ImageView
+                android:id="@+id/imgGym"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                app:layout_constraintDimensionRatio="16:9"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:src="@drawable/img_logo_default" />
+
+            <TextView
+                android:id="@+id/txtGymTitle"
+                style="@style/TextViewStyle.Medium.17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="8dp"
+                android:gravity="center"
+                android:paddingTop="12dp"
+                android:paddingBottom="12dp"
+                app:layout_constraintTop_toBottomOf="@+id/imgGym"
+                tools:text="fast food" />
+
+            <TextView
+                android:id="@+id/txtDesc"
+                style="@style/TextViewStyle.14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="8dp"
+                android:gravity="center"
+                android:paddingBottom="12dp"
+                app:layout_constraintTop_toBottomOf="@+id/txtGymTitle"
+                tools:text="fast food" />
+
+            <TextView
+                android:id="@+id/txtTime"
+                style="@style/TextViewStyle.Medium.16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="24dp"
+                android:text="@string/txt_time"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtDesc" />
+
+            <TextView
+                android:id="@+id/txtTimes"
+                style="@style/TextViewStyle.14"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="24dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/txtTime"
+                app:layout_constraintTop_toBottomOf="@+id/txtDesc"
+                tools:text="@string/txt_times" />
+
+            <TextView
+                android:id="@+id/txtGallery"
+                style="@style/TextViewStyle.Medium.16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="40dp"
+                android:text="@string/txt_gallery"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtTimes" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerViewGallery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                app:layout_constraintTop_toBottomOf="@+id/txtGallery"
+                tools:listitem="@layout/row_item_image_cover" />
+
+            <View
+                android:id="@+id/separatorDesc"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/colorSilver"
+                app:layout_constraintTop_toBottomOf="@+id/recyclerViewGallery" />
+
+            <TextView
+                android:id="@+id/txtSelectOffer"
+                style="@style/TextViewStyle.Medium.16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="24dp"
+                android:text="@string/txt_select_offer"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/separatorDesc" />
+
+            <RadioGroup
+                android:id="@+id/priceGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginTop="16dp"
+                app:layout_constraintTop_toBottomOf="@+id/txtSelectOffer">
+
+                <com.google.android.material.radiobutton.MaterialRadioButton
+                    android:id="@+id/radioOneDay"
+                    style="@style/TextViewStyle.Medium.14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    tools:text="@string/txt_one_day" />
+
+                <com.google.android.material.radiobutton.MaterialRadioButton
+                    android:id="@+id/radioTwoDay"
+                    style="@style/TextViewStyle.Medium.14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:text="@string/txt_two_day" />
+
+                <com.google.android.material.radiobutton.MaterialRadioButton
+                    android:id="@+id/radioThreeDay"
+                    style="@style/TextViewStyle.Medium.14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:text="@string/txt_three_day" />
+
+                <com.google.android.material.radiobutton.MaterialRadioButton
+                    android:id="@+id/radioFourDay"
+                    style="@style/TextViewStyle.Medium.14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:text="@string/txt_four_day" />
+
+                <com.google.android.material.radiobutton.MaterialRadioButton
+                    android:id="@+id/radioFiveDay"
+                    style="@style/TextViewStyle.Medium.14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:text="@string/txt_five_day" />
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/btnAddToCard"
+                style="@style/HotelWalletButtonMain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="24dp"
+                android:text="@string/txt_btn_add_to_cart"
+                app:icon="@drawable/img_cart"
+                app:iconGravity="end"
+                app:iconPadding="6dp"
+                app:iconTint="@color/colorWhite"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/priceGroup" />
+
+            <TextView
+                android:id="@+id/txtLabelTotal"
+                style="@style/TextViewStyle.Medium.16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="6dp"
+                android:text="@string/txt_total"
+                app:layout_constraintBottom_toBottomOf="@+id/btnAddToCard"
+                app:layout_constraintEnd_toStartOf="@+id/txtTotal"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toEndOf="@+id/btnAddToCard"
+                app:layout_constraintTop_toTopOf="@+id/btnAddToCard" />
+
+            <TextView
+                android:id="@+id/txtTotal"
+                style="@style/TextViewStyle.Bold.17"
+                android:layout_width="94dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:gravity="end"
+                app:layout_constraintBottom_toBottomOf="@+id/btnAddToCard"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/btnAddToCard"
+                tools:text="2400.0 DT" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

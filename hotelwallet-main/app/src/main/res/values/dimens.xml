@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Text dimension policy -->
+    <dimen name="textSizeTinyMoins">10dp</dimen>
+    <dimen name="textSizeTiny">11dp</dimen>
+    <dimen name="textSizeSmall">12dp</dimen>
+    <dimen name="textSizeSmallPlus">13dp</dimen>
+    <dimen name="textSizeRegularMoins">14dp</dimen>
+    <dimen name="textSizeRegular">15dp</dimen>
+    <dimen name="textSizeRegularPlus">16dp</dimen>
+    <dimen name="textSizeRegularExtra">17dp</dimen>
+    <dimen name="textSizeRegularExtraPlus">18dp</dimen>
+    <dimen name="textSizeLarge">20dp</dimen>
+    <dimen name="textSizeLargePlus">22dp</dimen>
+    <dimen name="textSizeHuge">24dp</dimen>
+    <dimen name="textSizeHugeExtra">32dp</dimen>
+    <dimen name="textSizeHugeExtraPlus">36dp</dimen>
+    <dimen name="textSizeGross">48dp</dimen>
+    <dimen name="textSizeGrossExtra">64dp</dimen>
+    <dimen name="list_item_spacing">16dp</dimen>
+    <dimen name="list_item_spacing_half">8dp</dimen>
+</resources>

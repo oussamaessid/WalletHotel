@@ -1,0 +1,12 @@
+
+Xkotlin:S6309%"@Functions returning "Flow" or "Channel" should not be suspending(ÉÿÍê
+]kotlin:S63093"@Functions returning "Flow" or "Channel" should not be suspending(á§çïúÿÿÿÿ
+]kotlin:S6309Q"@Functions returning "Flow" or "Channel" should not be suspending(°ÑÈ­ûÿÿÿÿ
+]kotlin:S6309]"@Functions returning "Flow" or "Channel" should not be suspending(¿–„ùÿÿÿÿ
+Xkotlin:S6309i"@Functions returning "Flow" or "Channel" should not be suspending(ş±½¯
+]kotlin:S6309v"@Functions returning "Flow" or "Channel" should not be suspending(‰€Üûÿÿÿÿ
+{kotlin:S1192-"^Define a constant instead of duplicating this literal "An unexpected error occurred." 6 times.(£Ë¿Ñÿÿÿÿÿ
+kotlin:S1192/"wDefine a constant instead of duplicating this literal "Couldn't reach server. Check your internet connection." 6 times.(¬¥âç
+9kotlin:S6310m"Avoid hardcoded dispatchers.(ºçªÀùÿÿÿÿ
+4kotlin:S6310="Avoid hardcoded dispatchers.(£éø
+9kotlin:S6310z"Avoid hardcoded dispatchers.(…ã÷ˆüÿÿÿÿ
